@@ -19,9 +19,7 @@ const router = express.Router();
 
 // Маршрут для загрузки файла
 router.post("/upload", upload.single("image"), (req, res) => {
-    if (!req.body.hexCode) {
-      return res.status(400).json({ error: "HEX-код не предоставлен" });
-    }
+    
     uploadImage(req, res, db);
   });
   
