@@ -132,4 +132,4 @@ server/
 
 # Круто?
 
-Пример практического применени можно посмотреть [здесь](https://github.com/MaximShep/stories)
+Пример практического применения можно посмотреть [здесь](https://github.com/MaximShep/stories)
